@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="aosp" fetch="https://android.googlesource.com"/>
-  <remote name="smatek" fetch="https://github.com/Smatek-DE/"/>
-
-  <default remote="aosp" revision="refs/tags/android-11.0.0_r48"/>
-
-  <!-- INCLUDE: die gesamte AOSP-Projektliste -->
-  <include name="aosp/default.xml"/>
-
-  <!-- Rockchip und deine Overrides -->
-  <include name="rockchip.xml"/>
-  <include name="overrides.xml"/>
+  <include name="aosp.xml" />
+  <include name="overrides.xml" />
 </manifest>
