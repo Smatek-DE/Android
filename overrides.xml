@@ -2,9 +2,9 @@
 <manifest>
 
   <!-- Dein Framework ersetzt das AOSP-Framework -->
-  <project name="android_frameworks_base"
+ <!-- <project name="android_frameworks_base"
            path="frameworks/base"
            remote="smatek"
-           revision="android-11" />
+           revision="android-11" />-->
 
 </manifest>
