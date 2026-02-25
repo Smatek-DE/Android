@@ -1,21 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com"
-           review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-11.0.0_r48"
+
+  <!-- AOSP -->
+  <project name="platform/manifest"
+           path="aosp"
            remote="aosp"
-           sync-j="4" />
+           revision="refs/tags/android-11.0.0_r48" />
 
+  <include name="aosp/default.xml" />
 
-  <remote name="smatek"
-          fetch="https://github.com/Smatek-DE/" />
+  <!-- Rockchip -->
+  <include name="default-rockchip.xml" />
 
-  <remove-project name="platform/frameworks/base" />
-
-  <project name="android_frameworks_base"
-           path="frameworks/base"
-           remote="smatek"
-           revision="android-11" />
+  <!-- DEINE overrides IMMER ZULETZT -->
+  <include name="overrides.xml" />
 
 </manifest>
