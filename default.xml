@@ -1,16 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <project name="platform/manifest"
-         path=".repo/aosp"
-         remote="aosp"
-         revision="refs/tags/android-11.0.0_r48" />
+  <remote name="aosp"
+          fetch="https://android.googlesource.com"
+          review="https://android-review.googlesource.com/" />
 
-<include name=".repo/aosp/default.xml" />
+  <remote name="smatek"
+          fetch="https://github.com/Smatek-DE/" />
 
-  <!-- Rockchip -->
+  <default remote="aosp"
+           revision="refs/tags/android-11.0.0_r48" />
+
+  <!-- AOSP Projektliste laden -->
+  <include name="aosp.xml" />
+
+  <!-- Vendor -->
   <include name="default-rockchip.xml" />
 
-  <!-- DEINE overrides IMMER ZULETZT -->
+  <!-- DEINE Overrides IMMER ZULETZT -->
   <include name="overrides.xml" />
 
 </manifest>
