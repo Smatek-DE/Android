@@ -15,9 +15,6 @@
            remote="aosp"
            revision="refs/tags/android-11.0.0_r48" />
 
-  <!-- Rockchip Vendor-Projekte -->
-  <include name="default-rockchip.xml" />
-
   <!-- Deine Overrides -->
   <include name="overrides.xml" />
 
