@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="github" fetch="https://github.com/Smatek-DE"/>
 
-  <!-- Dein Framework ersetzt das AOSP-Framework -->
- <!-- <project name="android_frameworks_base"
-           path="frameworks/base"
-           remote="smatek"
-           revision="android-11" />-->
+  <!-- Alten AOSP Kernel entfernen 
+  <remove-project name="kernel/common"/>-->
 
+  <!-- Eigenen Kernel hinzufügen 
+  <project name="my-kernel" remote="github" path="kernel/common" revision="my-branch"/>-->
+
+  <!-- Eigenes Device-Tree Projekt hinzufügen 
+  <project name="device_brand_model" remote="github" path="device/brand/model" revision="android-11"/>-->
 </manifest>
