@@ -2,8 +2,7 @@
 <manifest>
 
   <remote name="aosp"
-          fetch="https://android.googlesource.com"
-          review="https://android-review.googlesource.com/" />
+          fetch="https://android.googlesource.com" />
 
   <remote name="smatek"
           fetch="https://github.com/Smatek-DE/" />
@@ -11,13 +10,19 @@
   <default remote="aosp"
            revision="refs/tags/android-11.0.0_r48" />
 
-  <!-- AOSP Projektliste laden -->
-  <include name="aosp.xml" />
+  <!-- AOSP Manifest Repo laden -->
+  <project name="platform/manifest"
+           path="aosp"
+           remote="aosp"
+           revision="refs/tags/android-11.0.0_r48" />
 
-  <!-- Vendor -->
+  <!-- Include innerhalb des Repo-Workspaces -->
+  <include name="aosp/default.xml" />
+
+  <!-- Rockchip Vendor -->
   <include name="default-rockchip.xml" />
 
-  <!-- DEINE Overrides IMMER ZULETZT -->
+  <!-- Deine Overrides -->
   <include name="overrides.xml" />
 
 </manifest>
