@@ -5,7 +5,7 @@
           fetch="https://github.com/Smatek-DE/" />
 
   <!-- Erst AOSP Projekt löschen -->
-  <remove-project name="platform/frameworks/base" />
+  <remove-project name="aosp/platform/frameworks/base"/>
 
   <!-- Dann neu hinzufügen -->
   <project name="android_frameworks_base"
