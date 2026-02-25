@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="aosp" fetch="https://android.googlesource.com" review="https://android-review.googlesource.com"/>
+  <default remote="aosp" revision="refs/tags/android-11.0.0_r48" sync-j="4"/>
 
-  <!-- AOSP Manifest Repo selbst -->
-  <project name="platform/manifest"
-           path=".repo/manifests/aosp"
-           remote="aosp"
-           revision="refs/tags/android-11.0.0_r48" />
-
-  <!-- Und daraus die echte Projektliste -->
-  <include name=".repo/manifests/aosp/default.xml" />
-
+  <!-- AOSP Projekte direkt einbinden -->
+  <include name="aosp_manifest.xml" />
 </manifest>
