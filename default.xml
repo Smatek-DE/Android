@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="aosp" fetch="https://android.googlesource.com" />
-  <remote name="smatek" fetch="https://github.com/Smatek-DE/" />
-  
-  <!-- Default Revision für alle Projekte ohne eigenen revision -->
+
+  <remote name="aosp"
+          fetch="https://android.googlesource.com" />
+
   <default remote="aosp"
            revision="refs/tags/android-11.0.0_r48" />
 
-  <!-- Das AOSP Manifest selbst als Projekt klonen -->
+  <!-- Das AOSP Manifest selbst -->
   <project name="platform/manifest"
            path="aosp"
            remote="aosp"
            revision="refs/tags/android-11.0.0_r48" />
-
-  <!-- Deine Overrides -->
-  <include name="overrides.xml" />
 
 </manifest>
