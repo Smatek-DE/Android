@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- AOSP Remote -->
   <remote name="aosp"
           fetch="https://android.googlesource.com" />
 
-  <remote name="smatek"
-          fetch="https://github.com/Smatek-DE/" />
-
+  <!-- Default Revision für alle Projekte ohne eigenen revision -->
   <default remote="aosp"
            revision="refs/tags/android-11.0.0_r48" />
 
-  <!-- AOSP Manifest Repo laden -->
+  <!-- Das AOSP Manifest selbst als Projekt klonen -->
   <project name="platform/manifest"
            path="aosp"
            remote="aosp"
            revision="refs/tags/android-11.0.0_r48" />
 
-  <!-- Include innerhalb des Repo-Workspaces -->
-  <include name="aosp/default.xml" />
-
-  <!-- Rockchip Vendor -->
+  <!-- Rockchip Vendor-Projekte -->
   <include name="default-rockchip.xml" />
 
   <!-- Deine Overrides -->
