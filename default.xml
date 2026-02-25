@@ -6,5 +6,16 @@
   <default revision="refs/tags/android-11.0.0_r48"
            remote="aosp"
            sync-j="4" />
-  <include name="default-rockchip.xml" />
+
+
+  <remote name="smatek"
+          fetch="https://github.com/Smatek-DE/" />
+
+  <remove-project name="platform/frameworks/base" />
+
+  <project name="android_frameworks_base"
+           path="frameworks/base"
+           remote="smatek"
+           revision="android-11" />
+
 </manifest>
