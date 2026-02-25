@@ -9,8 +9,9 @@
 
   <!-- Das AOSP Manifest selbst -->
   <project name="platform/manifest"
-           path="aosp"
-           remote="aosp"
-           revision="refs/tags/android-11.0.0_r48" />
+         path="aosp"
+         remote="aosp"
+         revision="refs/tags/android-11.0.0_r48" />
 
+  <include name="aosp/default.xml" />
 </manifest>
