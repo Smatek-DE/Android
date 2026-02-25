@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- AOSP Manifest Repo selbst -->
+  <project name="platform/manifest"
+           path=".repo/manifests/aosp"
+           remote="aosp"
+           revision="refs/tags/android-11.0.0_r48" />
+
+  <!-- Und daraus die echte Projektliste -->
+  <include name=".repo/manifests/aosp/default.xml" />
+
+</manifest>
