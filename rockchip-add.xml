@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <project name="platform/manifest" path="." remote="aosp" />
+  
   <!--
   <project path="RKDocs/common" name="android_RKDocs_common" remote="rockchip"/>
   <project path="RKDocs/android" name="android_RKDocs_android" remote="rockchip"/>
