@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <!-- AOSP Remote -->
-  <remote name="aosp"
-          fetch="https://android.googlesource.com" />
-
+  <remote name="aosp" fetch="https://android.googlesource.com" />
+  <remote name="smatek" fetch="https://github.com/Smatek-DE/" />
+  
   <!-- Default Revision für alle Projekte ohne eigenen revision -->
   <default remote="aosp"
            revision="refs/tags/android-11.0.0_r48" />
