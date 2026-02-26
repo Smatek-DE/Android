@@ -9,5 +9,5 @@
   <remote name="rockchip-linux" fetch="https://github.com/rockchip-linux/" />
 
   <!-- BAB Technologie -->
-  <remote name="smatek" fetch="https://github.com/Smatek-DE/Android" sync-j="32" />
+  <remote name="smatek" fetch="https://github.com/Smatek-DE" sync-j="32" />
 </manifest>
