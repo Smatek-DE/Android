@@ -3,8 +3,68 @@
   <!-- U-Boot -->
   <project path="u-boot" name="android_u-boot" remote="rockchip" />
 
-  <!-- Alten AOSP Kernel entfernen 
-  <remove-project name="kernel/common"/>-->
+  <!-- Remove unnecessary Files -->
+  <remove-project name="platform/developers/demos" />
+  <remove-project name="platform/developers/samples/android" />
+  <remove-project name="platform/device/generic/mini-emulator-arm64" />
+  <remove-project name="platform/device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="platform/device/generic/mini-emulator-x86" />
+  <remove-project name="platform/device/generic/mini-emulator-x86_64" />
+  <remove-project name="platform/device/google/atv" />
+  <remove-project name="platform/device/sample" />
+  <remove-project name="platform/device/ti/beagle-x15" />
+  <remove-project name="platform/device/ti/beagle-x15-kernel" />
+  <remove-project name="platform/frameworks/opt/car/services" />
+  <remove-project name="platform/frameworks/opt/photoviewer" />
+  <remove-project name="platform/frameworks/opt/tv/tvsystem" />
+  <remove-project name="platform/frameworks/opt/vcard" />
+  <remove-project name="platform/hardware/google/pixel" />
+  <remove-project name="platform/hardware/google/pixel-sepolicy" />
+  <remove-project name="platform/hardware/nxp/nfc" />
+  <remove-project name="platform/hardware/st/nfc" />
+  <remove-project name="packages/apps/BasicSmsReceiver" />
+  <remove-project name="platform/packages/apps/Calendar" />
+  <remove-project name="platform/packages/apps/Camera2" />
+  <remove-project name="platform/packages/apps/Car/Calendar" />
+  <remove-project name="platform/packages/apps/Car/Cluster" />
+  <remove-project name="platform/packages/apps/Car/LocalMediaPlayer" />
+  <remove-project name="platform/packages/apps/Car/Media" />
+  <remove-project name="platform/packages/apps/Car/Messenger" />
+  <remove-project name="platform/packages/apps/Car/Notification" />
+  <remove-project name="platform/packages/apps/Car/Radio" />
+  <remove-project name="platform/packages/apps/Car/RotaryController" />
+  <remove-project name="platform/packages/apps/Car/Settings" />
+  <remove-project name="platform/packages/apps/Car/SystemUpdater" />
+  <remove-project name="platform/packages/apps/Car/libs" />
+  <remove-project name="platform/packages/apps/Car/tests" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/Gallery" />
+  <remove-project name="platform/packages/apps/Gallery2" />
+  <remove-project name="platform/packages/apps/Messaging" />
+  <remove-project name="platform/packages/apps/Music" />
+  <remove-project name="platform/packages/apps/MusicFX" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/QuickSearchBox" />
+  <remove-project name="platform/packages/apps/QuickAccessWallet" />
+  <remove-project name="platform/packages/apps/SoundRecorder" />
+  <remove-project name="platform/packages/apps/TvSettings" />
+  <remove-project name="platform/packages/apps/TV" />
+  <remove-project name="platform/packages/apps/UniversalMediaPlayer" />
+  <remove-project name="platform/packages/apps/WallpaperPicker" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
+  <remove-project name="platform/packages/providers/BlockedNumberProvider" />
+  <remove-project name="platform/packages/providers/BookmarkProvider" />
+  <remove-project name="platform/packages/providers/CalendarProvider" />
+  <remove-project name="platform/packages/providers/CallLogProvider" />
+  <remove-project name="platform/packages/providers/ContactsProvider" />
+  <remove-project name="platform/packages/providers/PartnerBookmarksProvider" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <remove-project name="platform/packages/providers/TvProvider" />
+  <remove-project name="platform/packages/providers/UserDictionaryProvider" />
+  <remove-project name="platform/packages/services/Car" />
+  <remove-project name="platform/packages/services/Mms" />
+  <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/system/nfc" />
 
   <!-- Eigenen Kernel hinzufügen 
   <project name="my-kernel" remote="smatek" path="kernel/common" revision="my-branch"/>-->
