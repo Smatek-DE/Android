@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- U-Boot -->
-  <project path="u-boot" name="android_u-boot" remote="rockchip" />
+  <remove-project name="platform/external/u-boot" />
+  <project path="u-boot" name="android_u-boot" remote="rockchip" revision="refs/heads/r-11.0" />
 
   <!-- Remove unnecessary Files -->
   <remove-project name="platform/developers/demos" />
