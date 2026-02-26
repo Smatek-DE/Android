@@ -5,7 +5,8 @@
   <default revision="refs/tags/android-11.0.0_r48" remote="aosp" sync-j="32" />
 
   <!-- Rockchip -->
-  <remote name="rockchip" fetch="https://github.com/aosp-rockchip/" revision="refs/heads/r-11.0" sync-j="32" />
+  <remote name="rockchip-aosp" fetch="https://github.com/aosp-rockchip/" revision="refs/heads/r-11.0" sync-j="32" />
+  <remote name="rockchip-linux" fetch="https://github.com/rockchip-linux/" />
 
   <!-- BAB Technologie -->
   <remote name="smatek" fetch="https://github.com/Smatek-DE/Android" sync-j="32" />
