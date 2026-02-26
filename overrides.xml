@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="github" fetch="https://github.com/Smatek-DE"/>
+  <!-- U-Boot -->
+  <project path="u-boot" name="android_u-boot" remote="rockchip" />
 
   <!-- Alten AOSP Kernel entfernen 
   <remove-project name="kernel/common"/>-->
 
   <!-- Eigenen Kernel hinzufügen 
-  <project name="my-kernel" remote="github" path="kernel/common" revision="my-branch"/>-->
+  <project name="my-kernel" remote="smatek" path="kernel/common" revision="my-branch"/>-->
 
   <!-- Eigenes Device-Tree Projekt hinzufügen 
-  <project name="device_brand_model" remote="github" path="device/brand/model" revision="android-11"/>-->
+  <project name="device_brand_model" remote="smatek" path="device/brand/model" revision="r-11.0"/>-->
 </manifest>
