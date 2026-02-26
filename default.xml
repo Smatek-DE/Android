@@ -2,4 +2,5 @@
 <manifest>
   <include name="settings.xml" />
   <include name="aosp.xml" />
+  <include name="overrides.xml" />
 </manifest>

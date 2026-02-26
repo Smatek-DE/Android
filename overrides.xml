@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- U-Boot -->
+  <!-- U-Boot: AOSP version entfernen, Rockchip version hinzufügen -->
   <remove-project name="platform/external/u-boot" />
   <project path="u-boot" name="android_u-boot" remote="rockchip" revision="refs/heads/r-11.0" />
 
-  <!-- Remove unnecessary Files -->
+  <!-- Remove unnecessary projects -->
   <remove-project name="platform/developers/demos" />
   <remove-project name="platform/developers/samples/android" />
-  <remove-project name="platform/device/generic/mini-emulator-arm64" />
-  <remove-project name="platform/device/generic/mini-emulator-armv7-a-neon" />
-  <remove-project name="platform/device/generic/mini-emulator-x86" />
-  <remove-project name="platform/device/generic/mini-emulator-x86_64" />
-  <remove-project name="platform/device/google/atv" />
-  <remove-project name="platform/device/sample" />
-  <remove-project name="platform/device/ti/beagle-x15" />
-  <remove-project name="platform/device/ti/beagle-x15-kernel" />
+  <remove-project name="device/generic/mini-emulator-arm64" />
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="device/generic/mini-emulator-x86_64" />
+  <remove-project name="device/google/atv" />
+  <remove-project name="device/sample" />
+  <remove-project name="device/ti/beagle-x15" />
+  <remove-project name="device/ti/beagle-x15-kernel" />
   <remove-project name="platform/frameworks/opt/car/services" />
   <remove-project name="platform/frameworks/opt/photoviewer" />
   <remove-project name="platform/frameworks/opt/tv/tvsystem" />
@@ -23,7 +23,7 @@
   <remove-project name="platform/hardware/google/pixel-sepolicy" />
   <remove-project name="platform/hardware/nxp/nfc" />
   <remove-project name="platform/hardware/st/nfc" />
-  <remove-project name="packages/apps/BasicSmsReceiver" />
+  <remove-project name="platform/packages/apps/BasicSmsReceiver" />
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/Car/Calendar" />
@@ -67,9 +67,9 @@
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/system/nfc" />
 
-  <!-- Eigenen Kernel hinzufügen 
+  <!-- Eigenen Kernel hinzufügen
   <project name="my-kernel" remote="smatek" path="kernel/common" revision="my-branch"/>-->
 
-  <!-- Eigenes Device-Tree Projekt hinzufügen 
+  <!-- Eigenes Device-Tree Projekt hinzufügen
   <project name="device_brand_model" remote="smatek" path="device/brand/model" revision="r-11.0"/>-->
 </manifest>
