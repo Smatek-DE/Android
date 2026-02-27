@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- U-Boot: AOSP version entfernen, Rockchip version hinzufügen -->
+  <!-- U-Boot -->
   <remove-project name="platform/external/u-boot" />
   <project path="u-boot" name="android_u-boot" remote="rockchip-aosp" revision="refs/heads/r-11.0" />
   <project path="rkbin" name="rkbin" remote="rockchip-linux" revision="master" />
