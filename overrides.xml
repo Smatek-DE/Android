@@ -25,5 +25,5 @@
   <!-- Eigenes Device-Tree Projekt hinzufügen
   <project name="device_brand_model" remote="bab" path="device/brand/model" revision="r-11.0"/>-->
 
-  <project path="." name="Builder" remote="bab" revision="main" />
+  <project path="." name="Builder" remote="smatek" revision="main" />
 </manifest>
