@@ -8,6 +8,6 @@
   <remote name="rockchip-aosp" fetch="https://github.com/aosp-rockchip/" revision="refs/heads/r-11.0" sync-j="32" />
   <remote name="rockchip-linux" fetch="https://github.com/rockchip-linux/" />
 
-  <!-- BAB Technologie -->
+  <!-- Smatek -->
   <remote name="smatek" fetch="https://github.com/Smatek-DE" sync-j="32" />
 </manifest>
