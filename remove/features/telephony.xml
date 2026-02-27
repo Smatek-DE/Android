@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Removes telephony related projects.
+-->
+<manifest>
+    <!-- Telephony Services -->
+    <remove-project name="platform/packages/services/Telecomm"/>
+    <remove-project name="platform/packages/services/Telephony"/>
+    <remove-project name="platform/packages/services/Mms"/>
+
+    <!-- Telephony Apps -->
+    <remove-project name="platform/packages/apps/BasicSmsReceiver"/>
+    <remove-project name="platform/packages/apps/CarrierConfig"/>
+    <remove-project name="platform/packages/apps/CellBroadcastReceiver"/>
+    <remove-project name="platform/packages/apps/Contacts"/>
+    <remove-project name="platform/packages/apps/Dialer"/>
+    <remove-project name="platform/packages/apps/EmergencyInfo"/>
+    <remove-project name="platform/packages/apps/Messaging"/>
+    <remove-project name="platform/packages/apps/PhoneCommon"/>
+    <remove-project name="platform/packages/apps/QuickAccessWallet"/>
+    <remove-project name="platform/packages/apps/Stk"/>
+
+    <!-- Telephony Providers -->
+    <remove-project name="platform/packages/providers/BlockedNumberProvider"/>
+    <remove-project name="platform/packages/providers/CallLogProvider"/>
+    <remove-project name="platform/packages/providers/ContactsProvider"/>
+    <remove-project name="platform/packages/providers/TelephonyProvider"/>
+
+    <!-- Telephony Modules -->
+    <remove-project name="platform/packages/modules/CellBroadcastService"/>
+
+    <!-- Telephony Frameworks -->
+    <remove-project name="platform/frameworks/opt/telephony"/>
+    <remove-project name="platform/frameworks/opt/net/ims"/>
+    <remove-project name="platform/frameworks/opt/net/voip"/>
+
+    <!-- Hardware / RIL -->
+    <remove-project name="platform/hardware/ril"/>
+
+    <!-- External Libraries -->
+    <remove-project name="platform/external/ims"/>
+    <remove-project name="platform/external/libphonenumber"/>
+</manifest>
