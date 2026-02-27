@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Removes TV related projects.
+-->
+<manifest>
+    <!-- TV Devices -->
+    <remove-project name="device/google/atv"/>
+
+    <!-- TV Apps -->
+    <remove-project name="platform/packages/apps/TV"/>
+    <remove-project name="platform/packages/apps/TvSettings"/>
+
+    <!-- TV Input Methods -->
+    <remove-project name="platform/packages/inputmethods/LeanbackIME"/>
+
+    <!-- TV Providers -->
+    <remove-project name="platform/packages/providers/TvProvider"/>
+
+    <!-- TV Frameworks -->
+    <remove-project name="platform/frameworks/opt/tv/tvsystem"/>
+</manifest>
