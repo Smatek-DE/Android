@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="remove/features/tv.xml" />
+  <include name="remove/features/nfc.xml" />
+  <include name="remove/features/automotive.xml" />
+  <include name="remove/features/telephony.xml" />
+</manifest>
