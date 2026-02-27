@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Removes completely NFC related projects.
+-->
+<manifest>
+    <!-- NFC App -->
+    <remove-project name="platform/packages/apps/Nfc"/>
+    <remove-project name="platform/packages/apps/Tag"/>
+
+    <!-- Secure Element -->
+    <remove-project name="platform/packages/apps/SecureElement"/>
+    <remove-project name="platform/hardware/nxp/secure_element"/>
+
+    <!-- NFC Hardware Abstraction -->
+    <remove-project name="platform/hardware/nxp/nfc"/>
+    <remove-project name="platform/hardware/st/nfc"/>
+
+    <!-- NFC System Stack -->
+    <remove-project name="platform/system/nfc"/>
+</manifest>
