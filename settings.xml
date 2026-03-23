@@ -12,5 +12,5 @@
   <remote name="rockchip-linux" fetch="https://github.com/rockchip-linux/" sync-j="32" />
 
   <!-- Smatek -->
-  <remote name="smatek" fetch="https://github.com/Smatek-DE" sync-j="32" />
+  <remote name="smatek" fetch="https://github.com/Smatek-DE/" sync-j="32" />
 </manifest>

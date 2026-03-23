@@ -12,7 +12,7 @@
   <project path="kernel/rockchip" name="kernel" remote="rockchip-linux" revision="develop-4.19" />
 
   <!-- Device Tree Definitions -->
-  <project path="device/smatek/s9pe-nz-kernel" name="dts" remote="smatek" revision="main">
+  <project path="device/smatek/s9pe-nz-kernel" name="DTS" remote="smatek" revision="main">
     <copyfile src="arch/arm64/boot/dts/rockchip/rk3566-smatek-s9pe-nz.dts" dest="kernel/rockchip/arch/arm64/boot/dts/rockchip/rk3566-smatek-s9pe-nz.dts" />
     <copyfile src="arch/arm64/boot/dts/rockchip/Makefile.append" dest="kernel/rockchip/arch/arm64/boot/dts/rockchip/Makefile.append" />
   </project>
