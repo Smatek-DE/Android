@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+  This file is for configuring the repositories for the Android Open Source Project (AOSP). It defines the remote repositories and the default revision to be used when syncing the source code.
+-->
 <manifest>
- <!-- Android -->
+  <!-- Android -->
   <remote name="aosp" fetch="https://android.googlesource.com" review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-11.0.0_r48" remote="aosp" sync-j="32" />
 

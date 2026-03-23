@@ -22,4 +22,27 @@
     <remove-project name="platform/packages/apps/QuickSearchBox"/>
     <remove-project name="platform/packages/apps/WallpaperPicker"/>
     <remove-project name="platform/packages/apps/WallpaperPicker2"/>
+    <remove-project name="platform/packages/apps/ThemePicker"/>
+
+    <!-- Testing -->
+    <remove-project name="platform/platform_testing"/>
+    <remove-project name="platform/cts"/>
+    <!--<remove-project name="platform/frameworks/opt/net/wifi"/>-->
+    <remove-project name="platform/external/skqp"/>
+    <remove-project name="platform/test/suite_harness"/>
+    <remove-project name="platform/tools/tradefederation/contrib"/>
+    <remove-project name="platform/tools/tradefederation"/>
+    <remove-project name="platform/test/mts"/>
+    <remove-project name="platform/test/app_compat/csuite"/>
+    <remove-project name="platform/test/vts"/>
+    <remove-project name="platform/tools/asuite"/>
+    <remove-project name="platform/test/framework"/>
+    <remove-project name="platform/test/vts-testcase/fuzz"/>
+    <remove-project name="platform/test/vts-testcase/hal"/>
+    <remove-project name="platform/test/vts-testcase/hal-trace"/>
+    <remove-project name="platform/test/vts-testcase/kernel"/>
+    <remove-project name="platform/test/vts-testcase/nbu"/>
+    <remove-project name="platform/test/vts-testcase/performance"/>
+    <remove-project name="platform/test/vts-testcase/security"/>
+    <remove-project name="platform/test/vts-testcase/vndk"/>
 </manifest>
