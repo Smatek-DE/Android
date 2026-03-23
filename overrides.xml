@@ -6,7 +6,7 @@
   <project path="rkbin" name="rkbin" remote="rockchip-linux" revision="master" />
 
   <!-- Remove unnecessary projects -->
-  <include name="remove/index.xml" />
+  <!--<include name="remove/index.xml" />-->
 
   <!-- Rockchip -->
   <project path="kernel/rockchip" name="kernel" remote="rockchip-linux" revision="develop-4.19" />
@@ -17,7 +17,7 @@
     <copyfile src="arch/arm64/boot/dts/rockchip/Makefile.append" dest="kernel/rockchip/arch/arm64/boot/dts/rockchip/Makefile.append" />
   </project>
 
-  <remove-project name="platform/system/connectivity/wificond"/>
+  <!--<remove-project name="platform/system/connectivity/wificond"/>-->
 
   <project path="." name="Builder" remote="smatek" revision="main" />
 </manifest>
